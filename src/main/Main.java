@@ -5,11 +5,11 @@ import static java.lang.System.out;
 public class Main {
 
   public static void main(String[] args) {
-    int result = sumAllDigit(999L);
+    int result = sumAllDigits(999L);
     out.println(result);
   }
 
-  private static int sumAllDigit(Long input) {
+  private static int sumAllDigits(Long input) {
     long sum;
     do {
       sum = 0;
